@@ -1,0 +1,19 @@
+/* reset */
+*{margin:0; padding:0}
+ul,li{list-style: none}			
+
+/* option */
+.border{border:1px red solid;}
+
+/* common */
+section{width:900px; height:540px; margin:0 auto}
+
+.head{margin:0 30px; border-bottom:3px #545454 solid; height:108px;  }
+      h1{padding:20px 0 0 0;}
+.head .promotion{float:right; margin-top:40px;}
+.head ul li{display:inline-block;}
+     
+.contents .photoline{width:840px; height:173px; margin:15px auto;} 
+.contents .photoline ul li:first-child{margin-left:0}
+.contents .photoline ul li{width:267px; height:173px; float:left; margin-left:19px}
+	 

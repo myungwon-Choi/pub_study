@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>selector_1</title>
+		<meta name="description" content="">
+		<meta name="author" content="Administrator">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+		<style>
+			/*
+			a{color:#00f}
+			a:link{color:#F00}
+			a:hover{color:black; font-weight:bold}
+			a:active{color:#0ff}
+			a:visited{color:#0f0}
+			*/
+		
+			/*
+			input[type="text"]{border:1px #f00 solid}
+			img[src$=".jpg"],
+			img[src^="icon-"],
+			img[src*="big-"]
+			{width:200px;}
+			*/
+			
+			/* 모두선태 선택자
+			*{margin:0; padding:0}
+			h1,h2{font-size:12px}
+			*/
+			
+			/* 이런식으로도 응용이 가능함. class="view" 로 정의된 모든 태그에 속성 입힘
+			.view *{} 
+			*/
+		
+			
+			/*
+			h1::before{content:url("Koala.jpg"); display:block}
+			h1::after{content:"님 반갑습니다."; color:#f00}
+			*/
+		
+			/*
+			html,body{height:100%}
+			
+			div{height:100%; background-attachment: fixed;}
+			
+			.bg1{background-image:url("images/Chrysanthemum.jpg");}
+			.bg2{background-image:url("images/Desert.jpg");}
+			.bg3{background-image:url("images/Hydrangeas.jpg");}
+			.bg4{background-image:url("images/Jellyfish.jpg");}
+			.bg5{background-image:url("images/Lighthouse.jpg");}
+			*/
+			
+			.left_menu{border:1px #ccc solid; width:250px}
+			.left_menu ul{margin:0; list-style:none; padding:10px}
+			.left_menu li{border-top:1px #f00 dashed; padding:5px 0;
+							background:url("images/ss.png") no-repeat;
+							padding-left:30px}
+			.left_menu li:first-child{border:none}
+			
+			li.icon1{background-position:-7px 4px}
+			li.icon2{background-position:-7px -18px}
+			li.icon3{background-position:-7px -42px}
+			li.icon4{background-position:-7px -62px}
+			li.icon5{background-position:-7px -130px}
+		
+		</style> 
+	
+	
+	</head>
+
+	<body>
+		
+		<div class="left_menu">
+			<ul>
+				<li class="icon1">첫번째 메뉴제목</li>
+				<li class="icon2">두번째 메뉴제목</li>
+				<li class="icon3">세번째 메뉴제목</li>
+				<li class="icon4">네번째 메뉴제목</li>
+				<li class="icon5">다섯번째 메뉴제목</li>
+				<li class="icon4">첫번째 메뉴제목</li>
+				<li class="icon3">두번째 메뉴제목</li>
+				<li class="icon2">세번째 메뉴제목</li>
+				<li class="icon1">네번째 메뉴제목</li>
+				<li class="icon5">다섯번째 메뉴제목</li>
+				
+			</ul>
+			</div>
+		
+		<!--
+			<div class="bg1"></div>
+			<div class="bg2"></div>
+			<div class="bg3"></div>
+			<div class="bg4"></div>
+			<div class="bg5"></div>
+			<!--
+			
+			<!--
+			<h1>최명원</h1>
+			-->
+			
+			<!-- 응용가능한 스타일에 대한 태그
+			<div class="view"></div>
+			-->
+			
+		<!--예시2
+		<ul>
+			<li>
+				<div class="aaa">sss</div>
+				</li>			
+			<li><input type="text"></li>
+			<li><input type="password"></li>
+			<li><img src="icon-big-Koala.jpg" alt="코알라" /></li>
+			<li>next</li>
+			<li>next</li>
+			
+		</ul>
+		-->
+		
+		<!--예시
+		<a href="#">홈페이지 이동</a>
+		<a href="">홈페이지 이동</a>
+		-->
+	
+		
+	</body>
+</html>

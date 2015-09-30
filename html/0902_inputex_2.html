@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+	</head>
+
+	<body>
+		<fieldset>
+			<legend>회원정보입력</legend>
+		 <form>
+		 	
+		
+		<table border="1" width="100%" summary="회원가입창">
+			<caption> *표시는 필수 입력 사항입니다.</caption>
+			<colgroup>
+				<col width="30%"/>
+				<col width="70%"/>
+			</colgroup>
+			<tbody>
+				<tr>
+					<th scope="row"><label for="username"><strong>*사용자 이름</strong></label></th>
+					<td><input id="username" type="text" name="name" /></td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="userid"><strong>*아이디</strong></label></th>
+					<td><input id="userid" type="text" name="id" />
+						<input type="button" value="중복확인"/><br />
+						<small>-영문, 숫자 조합으로 6~20자까지 사용가능합니다.</small><br />
+						<small>-첫 글자는 영문으로 설정해 주십시오.</small>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="userpw"><strong>*비밀번호</strong></label></th>
+					<td><input id="userpw" type="password" name="pw" /><br/>
+						<small>-영문, 숫자, 특수 문자 조합으로 8~20자까지 사용가능합니다.(영문은 대소문자 구분)</small><br />
+						<small>-유출되기 쉬운 비밀번호는 등록할 수 없습니다. (예:111, abcd, password 등)</small>
+				</tr>
+				<tr>
+					<th scope="row"><label for="pwcheck"><strong>*비밀번호확인</strong></label></th>
+					<td><input id="pwcheck" type="password" name="passwordcheck" />
+					</td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="useremail_f"><strong>*이메일</strong></label></th>
+					<td><input id="useremail_f" type="text"/> @
+						<input id="useremail_b" type="text"/>
+						<select id="useremail_s">
+							<option value="">직접입력</option>
+							<option value="naver.com">naver.com (네이버)</option>
+							<option value="nate.com">nate.com (네이트)</option>
+							<option value="hanmail.net">hanmail.net (한메일)</option>
+							<option value="gmail.com">gmail.com (지메일)</option>
+							<option value="hotmail.com">hotmail.com (핫메일)</option>
+							<option value="chol.com">chol.com (천리안)</option>
+						</select>
+						</td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="userphone_f">연락처</label></th>
+					<td><input id="userphone_f" type="text"/>-
+						<input id="userphone_m" type="text"/>-
+						<input id="userphone_b" type="text"/></td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="usercellph_f"><strong>*휴대전화</strong></label></th>
+					<td><select id="usercellph_f">
+							<option value="010">010</option>
+							<option value="016">016</option>
+							<option value="017">017</option>
+							<option value="018">018</option>
+							<option value="019">019</option>
+						</select>
+						<input id="usercellph_m" type="text"/>-
+						<input id="usercellph_b" type="text"/>
+						</td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="useraddress"><strong>*주소</strong></label></th>
+					<td><input id="post_number_f" type="text"/>-
+						<input id="post_number_b" type="text"/>
+						<input type="button" value="주소찾기"/><br />
+						<input id="useraddress_f" type="text"/><br />
+						<input id="useraddress_b" type="text"/>
+						</td>
+				</tr>
+			</tbody>
+		
+		
+		
+		</table>
+		
+		</form>
+		
+		</fieldset>
+		<input type="submit" value="회원가입" />
+	</body>
+</html>

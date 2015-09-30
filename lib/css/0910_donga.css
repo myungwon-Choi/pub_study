@@ -1,0 +1,51 @@
+@charset "utf=8";
+
+/*reset*/
+*{margin:0; padding:0}
+body{
+	font-size:12px; 
+	font-family:dotum,"돋움",Arial,Helvetica,Sans-serif;
+	color:#666;
+	}
+a{
+	text-decoration:none;
+	color:inherit;
+	}
+a:hover{
+	color:#f00
+	}	
+ul,ol{list-style:none;}
+
+
+
+body {
+	background-image:url("http://static.naver.net/newsstand/img/20121231/bg_bd.png;")
+	}
+.wrap{
+	width:900px;
+	height:540px;
+	border:1px #f00 solid;
+	margin:0 auto;
+	background:url();
+	padding:10px 18px; 
+	line-height:164% 
+}	
+
+.wrap .header{
+	border:1px #f00 solid;
+	height:50px;
+	padding:20px 0 33px;
+	border-bottom:3px #333 solid;
+	margin:0 30px
+}
+
+.wrap .container{
+	
+}
+
+.wrap .conatainer .section-spot{
+	width:507px;
+	height:380px;
+	float:left;
+}
+ 

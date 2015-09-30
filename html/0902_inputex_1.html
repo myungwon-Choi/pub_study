@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>입력</title>
+	</head>
+	<body>
+	
+	<input type="text" value="ttttt"/>
+	<input type="password"/><br/>
+	<input type="checkbox"/> 
+	<input type="radio"/> 
+	<input type="file"/>	
+	
+	<input type="button" value="확인"/>
+	<input type="submit" />
+	<input type="reset" /><br /><br />
+	
+	
+	<fieldset>
+		<legend>회원가입</legend>
+	
+	<form action="/" method="post">
+	
+	<ul>
+		<li><label for="userid">아이디:</label> <input id="userid" type="text" name="id" /></li>
+		<li><label for="userpw">비밀번호:</label> <input id="userpw" type="password" name="passwd" /></li>
+		<li><label for="username">이름:</label> <input id="username" type="text" name="username" /></li>
+		<li><label for="sex">성별:</label> <input id="man" type="radio" name="trans" /><label for="man">남 </label>
+			                              <input id="woman" type="radio" name="trans" /><label for="woman">여 </label>
+			                              </li>
+		<li><label for="hobby1">취미:</label> <input id="hobby1" type="checkbox" name="ch1" />야구
+			<label for="hobby1">취미:</label><input id="" type="checkbox" name="ch2" />농구 
+			                                <input id="" type="checkbox" name="ch3" />축구
+			 	</li>
+		<li>사용자사진: <input type="text" /><input type="file" name="imgfile" /></li>
+		<li>
+			내용:
+			<textarea rows="5" cols="50"></textarea>			
+		</li>
+		
+	</ul>
+	
+	
+	<input type="submit" value="확인" />
+	<input type="reset" value="초기화" />
+	
+	</form>
+	</fieldset>
+	
+	
+	<select>
+		<option value="010">010</option>
+		<option value="011">011</option>
+		<option value="016">016</option>
+		<option value="018">018</option>
+	</select>
+	
+	
+	</body>
+</html>
